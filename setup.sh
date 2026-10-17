@@ -27,7 +27,7 @@ if [[ "$(id -u)" -ne 0 ]]; then err "Zapustite ot root!"; exit 1; fi
 
 clear
 echo -e "${YELLOW}====================================================${NC}"
-echo -e "${GREEN}   SERPANTINUM ARCH INSTALLER v19 (GRUB PATH FIX)     ${NC}"
+echo -e "${GREEN}                ARCH INSTALLER v1                    ${NC}"
 echo -e "${YELLOW}====================================================${NC}"
 
 if [[ ! -d /sys/firmware/efi/efivars ]]; then err "Trebuetsya UEFI!"; exit 1; fi
